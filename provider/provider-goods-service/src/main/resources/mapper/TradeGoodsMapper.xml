@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzp.shop.provider.mapper.TradeGoodsMapper">
+  <resultMap id="BaseResultMap" type="com.zzp.shop.provider.domain.TradeGoods">
+    <!--@mbg.generated generated on Mon Mar 02 17:40:46 CST 2020.-->
+    <!--@Table trade_goods-->
+    <id column="goods_id" jdbcType="BIGINT" property="goodsId" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_number" jdbcType="INTEGER" property="goodsNumber" />
+    <result column="goods_price" jdbcType="DECIMAL" property="goodsPrice" />
+    <result column="goods_desc" jdbcType="VARCHAR" property="goodsDesc" />
+    <result column="add_time" jdbcType="TIMESTAMP" property="addTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Mar 02 17:40:46 CST 2020.-->
+    goods_id, goods_name, goods_number, goods_price, goods_desc, add_time
+  </sql>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzp.shop.provider.mapper.TradeUserMapper">
+  <resultMap id="BaseResultMap" type="com.zzp.shop.provider.domain.TradeUser">
+    <!--@mbg.generated generated on Mon Mar 02 17:59:50 CST 2020.-->
+    <!--@Table trade_user-->
+    <id column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_password" jdbcType="VARCHAR" property="userPassword" />
+    <result column="user_mobile" jdbcType="VARCHAR" property="userMobile" />
+    <result column="user_score" jdbcType="INTEGER" property="userScore" />
+    <result column="user_reg_time" jdbcType="TIMESTAMP" property="userRegTime" />
+    <result column="user_money" jdbcType="DECIMAL" property="userMoney" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Mar 02 17:59:50 CST 2020.-->
+    user_id, user_name, user_password, user_mobile, user_score, user_reg_time, user_money
+  </sql>
+</mapper>

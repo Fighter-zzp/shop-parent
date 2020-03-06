@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzp.shop.provider.mapper.TradeMqProducerTempMapper">
+  <resultMap id="BaseResultMap" type="com.zzp.shop.provider.domain.TradeMqProducerTemp">
+    <!--@mbg.generated generated on Thu Mar 05 12:05:16 CST 2020.-->
+    <!--@Table trade_mq_producer_temp-->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="group_name" jdbcType="VARCHAR" property="groupName" />
+    <result column="msg_topic" jdbcType="VARCHAR" property="msgTopic" />
+    <result column="msg_tag" jdbcType="VARCHAR" property="msgTag" />
+    <result column="msg_key" jdbcType="VARCHAR" property="msgKey" />
+    <result column="msg_body" jdbcType="VARCHAR" property="msgBody" />
+    <result column="msg_status" jdbcType="INTEGER" property="msgStatus" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Mar 05 12:05:16 CST 2020.-->
+    id, group_name, msg_topic, msg_tag, msg_key, msg_body, msg_status, create_time
+  </sql>
+</mapper>

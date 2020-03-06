@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzp.shop.provider.mapper.TradeGoodsNumberLogMapper">
+  <resultMap id="BaseResultMap" type="com.zzp.shop.provider.domain.TradeGoodsNumberLog">
+    <!--@mbg.generated generated on Mon Mar 02 17:43:56 CST 2020.-->
+    <!--@Table trade_goods_number_log-->
+    <id column="goods_id" jdbcType="BIGINT" property="goodsId" />
+    <id column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="goods_number" jdbcType="INTEGER" property="goodsNumber" />
+    <result column="log_time" jdbcType="TIMESTAMP" property="logTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Mar 02 17:43:56 CST 2020.-->
+    goods_id, order_id, goods_number, log_time
+  </sql>
+</mapper>

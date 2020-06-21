@@ -19,7 +19,7 @@
 
 ![](img/项目结构图.png)
 
-> 需要自行安装rocketMq和Nacos服务器，这里使用的RocketMq集群（双主双从），nacos是单机。整合rocketmq和java的架包是SpringCloudStream，使用knife4j是用来有界面调试请求
+> 需要自行安装rocketMq和Nacos服务器，这里使用的RocketMq集群（双主双从），nacos也是集群。整合rocketmq和java的架包是SpringCloudStream，使用knife4j是用来有界面调试请求
 
 ## 数据库
 
